@@ -1,0 +1,142 @@
+2025-11-16T14:30:01.091282+05:30 one1-VMware-Virtual-Platform CRON[1858]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-16T14:30:01.097136+05:30 one1-VMware-Virtual-Platform CRON[1858]: pam_unix(cron:session): session closed for user root
+2025-11-16T14:33:08.427240+05:30 one1-VMware-Virtual-Platform login[1636]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2025-11-16T14:33:08.427663+05:30 one1-VMware-Virtual-Platform login[1636]: PAM adding faulty module: pam_lastlog.so
+2025-11-16T14:33:11.852581+05:30 one1-VMware-Virtual-Platform login[1636]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=one1
+2025-11-16T14:33:14.186167+05:30 one1-VMware-Virtual-Platform login[1636]: FAILED LOGIN (1) on '/dev/tty1' FOR 'one1', Authentication failure
+2025-11-16T14:33:19.197723+05:30 one1-VMware-Virtual-Platform login[1636]: pam_unix(login:session): session opened for user one1(uid=1000) by LOGIN(uid=0)
+2025-11-16T14:33:19.229278+05:30 one1-VMware-Virtual-Platform systemd-logind[1409]: New session 2 of user one1.
+2025-11-16T14:33:19.756237+05:30 one1-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user one1(uid=1000) by one1(uid=0)
+2025-11-16T14:35:01.107059+05:30 one1-VMware-Virtual-Platform CRON[2090]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-16T14:35:01.113402+05:30 one1-VMware-Virtual-Platform CRON[2090]: pam_unix(cron:session): session closed for user root
+2025-11-16T14:37:20.926991+05:30 one1-VMware-Virtual-Platform dbus-daemon[1371]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-11-16T14:45:01.330518+05:30 one1-VMware-Virtual-Platform CRON[3236]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-16T14:45:01.334536+05:30 one1-VMware-Virtual-Platform CRON[3236]: pam_unix(cron:session): session closed for user root
+2025-11-16T14:48:27.475103+05:30 one1-VMware-Virtual-Platform su[3253]: (to root) one1 on tty1
+2025-11-16T14:48:27.476575+05:30 one1-VMware-Virtual-Platform su[3253]: pam_unix(su:session): session opened for user root(uid=0) by one1(uid=1000)
+2025-11-16T14:55:01.344647+05:30 one1-VMware-Virtual-Platform CRON[3492]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-16T14:55:01.349696+05:30 one1-VMware-Virtual-Platform CRON[3492]: pam_unix(cron:session): session closed for user root
+2025-11-16T15:05:01.177483+05:30 one1-VMware-Virtual-Platform CRON[4360]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-16T15:05:01.180534+05:30 one1-VMware-Virtual-Platform CRON[4360]: pam_unix(cron:session): session closed for user root
+2025-11-16T15:15:01.189918+05:30 one1-VMware-Virtual-Platform CRON[4503]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-16T15:15:01.192807+05:30 one1-VMware-Virtual-Platform CRON[4503]: pam_unix(cron:session): session closed for user root
+2025-11-16T15:15:12.845454+05:30 one1-VMware-Virtual-Platform sshd[4519]: Server listening on 0.0.0.0 port 22.
+2025-11-16T15:15:12.845597+05:30 one1-VMware-Virtual-Platform sshd[4519]: Server listening on :: port 22.
+2025-11-16T15:15:13.430975+05:30 one1-VMware-Virtual-Platform sshd[4520]: Received disconnect from 192.168.179.160 port 48272:11: Bye Bye [preauth]
+2025-11-16T15:15:13.431087+05:30 one1-VMware-Virtual-Platform sshd[4520]: Disconnected from authenticating user one1 192.168.179.160 port 48272 [preauth]
+2025-11-16T15:15:13.705482+05:30 one1-VMware-Virtual-Platform sshd[4522]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.179.160  user=one1
+2025-11-16T15:15:15.567498+05:30 one1-VMware-Virtual-Platform sshd[4522]: Failed password for one1 from 192.168.179.160 port 48280 ssh2
+2025-11-16T15:15:15.873169+05:30 one1-VMware-Virtual-Platform sshd[4522]: Connection closed by authenticating user one1 192.168.179.160 port 48280 [preauth]
+2025-11-16T15:17:01.199579+05:30 one1-VMware-Virtual-Platform CRON[4557]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-16T15:17:01.205519+05:30 one1-VMware-Virtual-Platform CRON[4557]: pam_unix(cron:session): session closed for user root
+2025-11-16T15:18:38.356566+05:30 one1-VMware-Virtual-Platform sshd[4607]: Received disconnect from 192.168.179.160 port 36652:11: Bye Bye [preauth]
+2025-11-16T15:18:38.356811+05:30 one1-VMware-Virtual-Platform sshd[4607]: Disconnected from authenticating user one1 192.168.179.160 port 36652 [preauth]
+2025-11-16T15:18:38.632656+05:30 one1-VMware-Virtual-Platform sshd[4609]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.179.160  user=one1
+2025-11-16T15:18:40.639477+05:30 one1-VMware-Virtual-Platform sshd[4609]: Failed password for one1 from 192.168.179.160 port 36668 ssh2
+2025-11-16T15:18:40.800396+05:30 one1-VMware-Virtual-Platform sshd[4609]: Connection closed by authenticating user one1 192.168.179.160 port 36668 [preauth]
+2025-11-16T15:25:01.214626+05:30 one1-VMware-Virtual-Platform CRON[4790]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-16T15:25:01.219454+05:30 one1-VMware-Virtual-Platform CRON[4790]: pam_unix(cron:session): session closed for user root
+2025-11-16T15:30:01.228025+05:30 one1-VMware-Virtual-Platform CRON[5066]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-16T15:30:01.230907+05:30 one1-VMware-Virtual-Platform CRON[5066]: pam_unix(cron:session): session closed for user root
+2025-11-16T15:35:01.238695+05:30 one1-VMware-Virtual-Platform CRON[5444]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-16T15:35:01.243365+05:30 one1-VMware-Virtual-Platform CRON[5444]: pam_unix(cron:session): session closed for user root
+2025-11-16T15:38:10.268335+05:30 one1-VMware-Virtual-Platform sshd[5448]: Accepted password for one1 from 192.168.179.1 port 59733 ssh2
+2025-11-16T15:38:10.270188+05:30 one1-VMware-Virtual-Platform sshd[5448]: pam_unix(sshd:session): session opened for user one1(uid=1000) by one1(uid=0)
+2025-11-16T15:38:10.276446+05:30 one1-VMware-Virtual-Platform systemd-logind[1409]: New session 13 of user one1.
+2025-11-16T15:38:10.494156+05:30 one1-VMware-Virtual-Platform sshd[5450]: Accepted password for one1 from 192.168.179.1 port 59734 ssh2
+2025-11-16T15:38:10.496342+05:30 one1-VMware-Virtual-Platform sshd[5450]: pam_unix(sshd:session): session opened for user one1(uid=1000) by one1(uid=0)
+2025-11-16T15:38:10.500066+05:30 one1-VMware-Virtual-Platform systemd-logind[1409]: New session 14 of user one1.
+2025-11-16T15:38:19.527944+05:30 one1-VMware-Virtual-Platform su[5583]: (to root) one1 on pts/0
+2025-11-16T15:38:19.528243+05:30 one1-VMware-Virtual-Platform su[5583]: pam_unix(su:session): session opened for user root(uid=0) by one1(uid=1000)
+2025-11-16T15:40:09.597571+05:30 one1-VMware-Virtual-Platform sudo:     root : TTY=pts/0 ; PWD=/opt/splunkforwarder/bin ; USER=root ; COMMAND=/usr/bin/ps -eo user,pid,cmd
+2025-11-16T15:40:09.597834+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by one1(uid=0)
+2025-11-16T15:40:09.613365+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2025-11-16T15:40:12.873803+05:30 one1-VMware-Virtual-Platform sudo:     root : TTY=pts/0 ; PWD=/opt/splunkforwarder/bin ; USER=root ; COMMAND=/usr/bin/ps -eo user,pid,cmd
+2025-11-16T15:40:12.874804+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by one1(uid=0)
+2025-11-16T15:40:12.889778+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2025-11-16T15:40:26.651434+05:30 one1-VMware-Virtual-Platform sudo:     root : TTY=pts/0 ; PWD=/opt/splunkforwarder/bin ; USER=root ; COMMAND=/usr/bin/chown -R splunk:splunk /opt/splunkforwarder
+2025-11-16T15:40:26.652364+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by one1(uid=0)
+2025-11-16T15:40:26.666960+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2025-11-16T15:41:09.703305+05:30 one1-VMware-Virtual-Platform sudo:     root : TTY=pts/0 ; PWD=/opt/splunkforwarder/bin ; USER=root ; COMMAND=/opt/splunkforwarder/bin/splunk restart
+2025-11-16T15:41:09.704659+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by one1(uid=0)
+2025-11-16T15:41:21.354911+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2025-11-16T15:41:21.361670+05:30 one1-VMware-Virtual-Platform sudo:     root : TTY=pts/0 ; PWD=/opt/splunkforwarder/bin ; USER=splunk ; COMMAND=/opt/splunkforwarder/bin/splunk restart
+2025-11-16T15:41:21.364524+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user splunk(uid=1001) by one1(uid=0)
+2025-11-16T15:41:21.378963+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user splunk
+2025-11-16T15:41:34.390136+05:30 one1-VMware-Virtual-Platform sudo:     root : TTY=pts/0 ; PWD=/opt/splunkforwarder/bin ; USER=root ; COMMAND=/opt/splunkforwarder/bin/splunk status
+2025-11-16T15:41:34.391117+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by one1(uid=0)
+2025-11-16T15:41:34.494197+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2025-11-16T15:41:34.500113+05:30 one1-VMware-Virtual-Platform sudo:     root : TTY=pts/0 ; PWD=/opt/splunkforwarder/bin ; USER=root ; COMMAND=/opt/splunkforwarder/bin/splunk list monitor
+2025-11-16T15:41:34.501318+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by one1(uid=0)
+2025-11-16T15:41:52.314341+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2025-11-16T15:41:59.932500+05:30 one1-VMware-Virtual-Platform sudo:     root : TTY=pts/0 ; PWD=/opt/splunkforwarder/bin ; USER=root ; COMMAND=/opt/splunkforwarder/bin/splunk status
+2025-11-16T15:41:59.933648+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by one1(uid=0)
+2025-11-16T15:42:00.038460+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2025-11-16T15:42:00.045168+05:30 one1-VMware-Virtual-Platform sudo:     root : TTY=pts/0 ; PWD=/opt/splunkforwarder/bin ; USER=root ; COMMAND=/opt/splunkforwarder/bin/splunk list monitor
+2025-11-16T15:42:00.046037+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by one1(uid=0)
+2025-11-16T15:42:06.198353+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2025-11-16T15:43:41.686538+05:30 one1-VMware-Virtual-Platform sudo:     root : TTY=pts/0 ; PWD=/opt/splunkforwarder/bin ; USER=root ; COMMAND=/opt/splunkforwarder/bin/splunk stop
+2025-11-16T15:43:41.688232+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by one1(uid=0)
+2025-11-16T15:43:47.896589+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2025-11-16T15:44:04.676802+05:30 one1-VMware-Virtual-Platform sudo:     root : TTY=pts/0 ; PWD=/opt/splunkforwarder/bin ; USER=splunk ; COMMAND=/opt/splunkforwarder/bin/splunk start --accept-license
+2025-11-16T15:44:04.681756+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user splunk(uid=1001) by one1(uid=0)
+2025-11-16T15:44:04.704140+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user splunk
+2025-11-16T15:44:16.675773+05:30 one1-VMware-Virtual-Platform su[5583]: pam_unix(su:session): session closed for user root
+2025-11-16T15:44:23.359907+05:30 one1-VMware-Virtual-Platform sudo:     one1 : TTY=pts/0 ; PWD=/home/one1 ; USER=splunk ; COMMAND=/opt/splunkforwarder/bin/splunk start --accept-license
+2025-11-16T15:44:23.362532+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user splunk(uid=1001) by one1(uid=1000)
+2025-11-16T15:44:23.385957+05:30 one1-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user splunk
+2025-11-16T15:45:01.252201+05:30 one1-VMware-Virtual-Platform CRON[8444]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-16T15:45:01.255360+05:30 one1-VMware-Virtual-Platform CRON[8444]: pam_unix(cron:session): session closed for user root
+2025-11-16T15:45:06.707017+05:30 one1-VMware-Virtual-Platform su[8471]: (to root) one1 on pts/0
+2025-11-16T15:45:06.708220+05:30 one1-VMware-Virtual-Platform su[8471]: pam_unix(su:session): session opened for user root(uid=0) by one1(uid=1000)
+2025-11-16T15:55:01.264464+05:30 one1-VMware-Virtual-Platform CRON[13086]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-16T15:55:01.268856+05:30 one1-VMware-Virtual-Platform CRON[13086]: pam_unix(cron:session): session closed for user root
+2025-11-16T15:55:17.724215+05:30 one1-VMware-Virtual-Platform sshd[13185]: Received disconnect from 192.168.179.160 port 37984:11: Bye Bye [preauth]
+2025-11-16T15:55:17.724367+05:30 one1-VMware-Virtual-Platform sshd[13185]: Disconnected from authenticating user one1 192.168.179.160 port 37984 [preauth]
+2025-11-16T15:55:18.000228+05:30 one1-VMware-Virtual-Platform sshd[13193]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.179.160  user=one1
+2025-11-16T15:55:20.223019+05:30 one1-VMware-Virtual-Platform sshd[13193]: Failed password for one1 from 192.168.179.160 port 37994 ssh2
+2025-11-16T15:55:22.340257+05:30 one1-VMware-Virtual-Platform sshd[13193]: Connection closed by authenticating user one1 192.168.179.160 port 37994 [preauth]
+2025-11-16T16:03:10.316599+05:30 one1-VMware-Virtual-Platform systemd-logind[1409]: The system will reboot now!
+2025-11-16T16:03:10.397040+05:30 one1-VMware-Virtual-Platform systemd-logind[1409]: System is rebooting.
+2025-11-16T16:03:10.420426+05:30 one1-VMware-Virtual-Platform sshd[5450]: pam_unix(sshd:session): session closed for user one1
+2025-11-16T16:03:10.426856+05:30 one1-VMware-Virtual-Platform sshd[5448]: pam_unix(sshd:session): session closed for user one1
+2025-11-16T16:03:10.427072+05:30 one1-VMware-Virtual-Platform su[8471]: pam_unix(su:session): session closed for user root
+2025-11-16T16:03:10.431135+05:30 one1-VMware-Virtual-Platform su[3253]: pam_unix(su:session): session closed for user root
+2025-11-16T16:04:17.271532+05:30 one1-VMware-Virtual-Platform systemd-logind[1212]: New seat seat0.
+2025-11-16T16:04:17.271536+05:30 one1-VMware-Virtual-Platform systemd-logind[1212]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-11-16T16:04:17.271541+05:30 one1-VMware-Virtual-Platform systemd-logind[1212]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2025-11-16T16:04:17.271895+05:30 one1-VMware-Virtual-Platform polkitd[1206]: Loading rules from directory /etc/polkit-1/rules.d
+2025-11-16T16:04:17.280151+05:30 one1-VMware-Virtual-Platform polkitd[1206]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-11-16T16:04:17.389440+05:30 one1-VMware-Virtual-Platform polkitd[1206]: Finished loading, compiling and executing 16 rules
+2025-11-16T16:04:17.390150+05:30 one1-VMware-Virtual-Platform polkitd[1206]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-11-16T16:04:29.429955+05:30 one1-VMware-Virtual-Platform login[1394]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2025-11-16T16:04:29.430075+05:30 one1-VMware-Virtual-Platform login[1394]: PAM adding faulty module: pam_lastlog.so
+2025-11-16T16:04:31.573734+05:30 one1-VMware-Virtual-Platform login[1394]: pam_unix(login:session): session opened for user one1(uid=1000) by one1(uid=0)
+2025-11-16T16:04:31.602991+05:30 one1-VMware-Virtual-Platform systemd-logind[1212]: New session 1 of user one1.
+2025-11-16T16:04:31.646983+05:30 one1-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user one1(uid=1000) by one1(uid=0)
+2025-11-16T16:04:46.815314+05:30 one1-VMware-Virtual-Platform useradd[1809]: failed adding user 'two2', exit code: 9
+2025-11-16T16:05:01.822610+05:30 one1-VMware-Virtual-Platform CRON[1816]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-16T16:05:01.830484+05:30 one1-VMware-Virtual-Platform CRON[1816]: pam_unix(cron:session): session closed for user root
+2025-11-16T16:05:45.077410+05:30 one1-VMware-Virtual-Platform sshd[1821]: Server listening on 0.0.0.0 port 22.
+2025-11-16T16:05:45.077939+05:30 one1-VMware-Virtual-Platform sshd[1821]: Server listening on :: port 22.
+2025-11-16T16:05:47.417548+05:30 one1-VMware-Virtual-Platform sshd[1822]: Invalid user oneq from 192.168.179.1 port 60806
+2025-11-16T16:05:49.389927+05:30 one1-VMware-Virtual-Platform sshd[1822]: pam_unix(sshd:auth): check pass; user unknown
+2025-11-16T16:05:49.390059+05:30 one1-VMware-Virtual-Platform sshd[1822]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.179.1 
+2025-11-16T16:05:50.710999+05:30 one1-VMware-Virtual-Platform sshd[1822]: Failed password for invalid user oneq from 192.168.179.1 port 60806 ssh2
+2025-11-16T16:05:56.881086+05:30 one1-VMware-Virtual-Platform sshd[1822]: pam_unix(sshd:auth): check pass; user unknown
+2025-11-16T16:05:58.828381+05:30 one1-VMware-Virtual-Platform sshd[1822]: Failed password for invalid user oneq from 192.168.179.1 port 60806 ssh2
+2025-11-16T16:06:08.695526+05:30 one1-VMware-Virtual-Platform sshd[1822]: Connection closed by invalid user oneq 192.168.179.1 port 60806 [preauth]
+2025-11-16T16:06:08.696389+05:30 one1-VMware-Virtual-Platform sshd[1822]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.179.1 
+2025-11-16T16:06:17.334723+05:30 one1-VMware-Virtual-Platform sshd[1824]: Accepted password for one1 from 192.168.179.1 port 57688 ssh2
+2025-11-16T16:06:17.336896+05:30 one1-VMware-Virtual-Platform sshd[1824]: pam_unix(sshd:session): session opened for user one1(uid=1000) by one1(uid=0)
+2025-11-16T16:06:17.341144+05:30 one1-VMware-Virtual-Platform systemd-logind[1212]: New session 4 of user one1.
+2025-11-16T16:06:17.559320+05:30 one1-VMware-Virtual-Platform sshd[1826]: Accepted password for one1 from 192.168.179.1 port 57691 ssh2
+2025-11-16T16:06:17.561330+05:30 one1-VMware-Virtual-Platform sshd[1826]: pam_unix(sshd:session): session opened for user one1(uid=1000) by one1(uid=0)
+2025-11-16T16:06:17.565431+05:30 one1-VMware-Virtual-Platform systemd-logind[1212]: New session 5 of user one1.
+2025-11-16T16:06:22.946243+05:30 one1-VMware-Virtual-Platform su: pam_unix(su:auth): authentication failure; logname=one1 uid=1000 euid=0 tty=/dev/pts/0 ruser=one1 rhost=  user=root
+2025-11-16T16:06:24.993319+05:30 one1-VMware-Virtual-Platform su[1925]: FAILED SU (to root) one1 on pts/0
+2025-11-16T16:06:30.547523+05:30 one1-VMware-Virtual-Platform su[1963]: (to root) one1 on pts/0
+2025-11-16T16:06:30.548261+05:30 one1-VMware-Virtual-Platform su[1963]: pam_unix(su:session): session opened for user root(uid=0) by one1(uid=1000)
+2025-11-16T16:07:09.893743+05:30 one1-VMware-Virtual-Platform sshd[2213]: Accepted password for one1 from 192.168.179.1 port 59373 ssh2
+2025-11-16T16:07:09.894728+05:30 one1-VMware-Virtual-Platform sshd[2213]: pam_unix(sshd:session): session opened for user one1(uid=1000) by one1(uid=0)
+2025-11-16T16:07:09.898542+05:30 one1-VMware-Virtual-Platform systemd-logind[1212]: New session 6 of user one1.
