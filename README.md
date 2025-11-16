@@ -148,4 +148,22 @@ sudo iptables -L -n --line-numbers
 ---
 
 ## 🔥 Hydra Brute-force Attack
-![Hydra Attack](Screenshot 2025-11-16 151648.png)
+![Hydra Attack](Screenshot%202025-11-16%20151648.png)
+
+## 🔥 auth.log showing failed password entries.
+![Auth log](Screenshot%202025-11-16%20161802.png")
+## 🔥 Failed login SPL results
+![third file](Screenshot%202025-11-16%20161001.png)
+
+## 🔥 Splunk alert configuration
+![fourthfile](Screenshot%202025-11-16%20161250.png)
+![fourthfile](Screenshot%202025-11-16%20161307.png)
+
+## 🔥 Firewall rule insertion.
+![fifth file](Screenshot%202025-11-16%20161536.png)
+
+
+---
+## Conclusion
+
+This project successfully demonstrates an end-to-end SOC workflow including attack generation, log ingestion, detection engineering,  alerting, and active response using firewall rules. It provides strong practical skills required for SOC Analyst, Detection Engineer, and Threat Hunter roles.
